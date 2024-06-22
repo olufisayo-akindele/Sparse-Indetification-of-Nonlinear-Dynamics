@@ -1,16 +1,5 @@
 # Sparse-Indetification-of-Nonlinear-Dynamics
-Sparse Identification of Non-linear Dynamics – Petroleum data application 
-Traditionally models are developed through first principles, that is to solve equations for mass and momentum conservation. However, it is also possible to determine equations directly from data. In this thesis we will use simple analytical models (decline models) and SINDY (Sparse identification of Nonlinear Dynamics, se e.g. https://royalsocietypublishing.org/doi/10.1098/rspa.2020.0279#RSPA20200279F7 ) to investigate if it is possible to extract models directly from the data. 
-The data we will use is from the Norwegian DISKOS database, which contains individual well data, see the plots below that shows individual well data for the Snorre field (unit on y-axis is Sm3/month)
- 	 
-
-Possible tasks:
-•	Investigate different data sets in the DISKOS database and identify suitable candidates.
-•	Test out simple analytical models on the well data
-•	Investigate if SINDY can be used on the well data to extract more suitable well models 
-•	Discuss strength and weaknesses with the different approaches.
-Relatively new discuss when we apply it on synthetic data it is really good and compared to none synthetic data it is really not so good.
-Understand the methods and explain it, how does it works, can he really challenge his  work and understand how the methods and everything work and affect the results.
-
-Research question what is the interaction between these wells. If possible predict the end of life cycle of these wells. When you test the data on small result write it down and put it in the thesis 
-Convince the reader you know what you are writing about.
+This code is for a thesis and it uses the SINDy algorithm to discover dynamical systems models that describe the COVID-19 Data. The SINDy algorithm is a new machine learning algorithm that can help with predicting of future data and produce equations that best describe the system being studied.
+The SINDy method uses the sequential threshold least-square method to discover these equations. This method uses list square fitting, thresholding and iteration to extract the systems model.
+The parameters used in processing the data were optimised to give the best result and a model accuracy of 0.98 was achieved, the discovered model parameter when used along with short time frame of date was able to predict future values with an accuracy of up to 0.75 when only about half of the data was used in discovering the system model.
+The SINDy model if utilised properly can be used to extract system models from very complex systems with several dimensions and discover the hidden dynamics within these systems. The SINDy algorithm can be applied to future pandemic outbreaks and to help understand the consequence of introducing certain countermeasures to mitigate a disease spread.
